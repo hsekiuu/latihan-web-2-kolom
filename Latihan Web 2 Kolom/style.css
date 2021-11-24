@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    background-color: aliceblue;
+    height: 100px;
+}
+.logo {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+
+}
+.menu ul li {
+    text-align: match-parent;
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 100px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    background-color: grey;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    
+}
+.article {
+    height: 60vh;
+    background-color: white;
+}
+.article-left {
+    float: left;
+    width: 50%;
+}
+.article-right {
+    float: right;
+    width: 50%;
+    padding-right: 100px;
+    padding-top: 100px;
+    height: 550px;
+    text-align: justify;
+    
+    
+}
+.button  {
+    padding-top: 20px;
+}
+.button a {
+    text-decoration: none;
+    background-color: violet;
+    padding: 10px;
+}
+.testimoni {
+    height: 50vh;
+    background-color:aliceblue;
+    
+}
+.testimonials img {
+    float: left;
+    
+    padding: 10px;
+    
+}
+.testimonials {
+    text-align: left;
+    
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+.shortly {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-right: 50px;
+    padding-left: 10px;
+    
+}
+.footer {
+    text-align: center;
+    background-color: grey;
+}
+
+
+
+
